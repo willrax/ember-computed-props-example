@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('oneway');
+  this.route('twoway');
+  this.route('shadow');
+  this.route('readonly');
 });
 
 export default Router;

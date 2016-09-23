@@ -1,0 +1,17 @@
+<p>
+  Welcome back {{user.model.name}} 
+</p>
+
+<div>
+  {{#link-to 'twoway'}} twoway {{/link-to}} |
+
+  {{#link-to 'oneway'}} oneway {{/link-to}} |
+
+  {{#link-to 'readonly'}} readonly {{/link-to}}
+ |
+  {{#link-to 'shadow'}} shadow {{/link-to}}
+</div>
+
+<div>
+  {{outlet}}
+</div>

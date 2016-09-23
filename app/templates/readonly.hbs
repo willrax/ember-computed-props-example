@@ -1,0 +1,11 @@
+<div style="margin-top: 25px;">
+  <input value={{shadowName}} oninput={{action (mut shadowName) value="target.value"}}>
+</div>
+
+<button {{action "save"}}>
+  Save
+</button>
+
+<button {{action "reset"}}>
+  Reset
+</button>
